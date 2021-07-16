@@ -40,7 +40,7 @@ const questions = [
     {
         type: 'input',
         message: 'Please select the LICENSE you would like to use.',
-        choices: ['MIT', 'GPL-3.0', 'MPL-2.0', 'Apache-2.0', 'BSD-3-Clause', 'None'],
+        choices: ['Apache-2.0', 'Boost', 'BSD-2-Clause', 'BSD-3-Clause', 'Eclipse', 'GNU-GPL-v3', 'IBM', 'ISC', 'MIT','Mozilla-2.0', 'ODbL', 'SIL', 'None'],
         name: 'license',
     },
     // user input for github username
