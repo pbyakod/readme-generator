@@ -1,3 +1,8 @@
+// declaring packages used
+const inquirer = require('inquirer');
+const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown.js');
+
 // questionbank for program to prompt
 const questions = [
     // user input for title
@@ -56,4 +61,17 @@ const questions = [
         name: 'email-id',
     },
 ];
+
+// function to initialize markdown page
+function init() {
+    // prompt for asking questions
+    inquire.prompt(questions)
+    // generating a README.md file
+        .then(data => {
+            fs.writeFile('GeneratedREADME.md', generateMarkdown(data));
+        })
+}
+
+// calling init() function
+init();
 
