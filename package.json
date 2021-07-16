@@ -1,0 +1,23 @@
+{
+  "name": "readme-producer",
+  "version": "1.0.0",
+  "description": "A command-line interface that allows users to generate quality README.md files based off user inputs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pbyakod/readme-producer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pbyakod/readme-producer/issues"
+  },
+  "homepage": "https://github.com/pbyakod/readme-producer#readme",
+  "dependencies": {
+    "inquirer": "^8.1.2"
+  }
+}
