@@ -24,5 +24,17 @@ const questions = [
         message: 'Please provide some USAGE INFORMATION for your project',
         name: 'usage-info',
     },
+    // user input for contribution guidelines
+    {
+        type: 'input',
+        message: 'Please enter the CONTRIBUTION GUIDELINES for your project',
+        name: 'guidelines',
+    },
+    // user input for test instructions
+    {
+        type: 'input',
+        message: 'Please provide the TEST INSTRUCTIONS for your project',
+        name: 'test-instruct',
+    },
 ];
 
