@@ -64,11 +64,31 @@ function renderLicenseLink(license) {
   }
 }
 
-function renderLicenseSection(license) {}
-
 function generateMarkdown(data) {
   return `# ${data.title}
-
+  ${renderLicenseBadge(data.license)}
+  ## Description 
+  ${data.description}
+  ## Table of Contents
+  * [Installation](#installation)
+  * [Usage Information](#usage-info)
+  * [Contribution Guidelines](#guidelines)
+  * [License](#license)
+  * [Test Instructions](#testing)
+  * [Contact](#contact)
+  ## Installation
+  ${data.install}
+  ## Usage Information
+  ${data.usage-info}
+  ## Contribution Guidelines
+  ${data.guidelines}
+  ## License
+  ${renderLicenseLink(data.license)}
+  ## Test Instructions
+  ${data.test-instruct}
+  ## Contact
+  Github: [Github](https://github.com/${data.github-id})
+  Email: ${data.email-id}
 `;
 }
 
