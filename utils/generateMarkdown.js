@@ -31,7 +31,38 @@ function renderLicenseBadge(license) {
   }
 }
 
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  switch(license) {
+    case 'Apache-2.0':
+      return '[Apache-2.0](https://opensource.org/licenses/Apache-2.0)'
+    case 'Boost':
+      return '[Boost](https://www.boost.org/LICENSE_1_0.txt)'
+    case 'BSD-2-Clause':
+      return '[BSD-2-Clause](https://opensource.org/licenses/BSD-2-Clause)'
+    case 'BSD-3-Clause':
+      return '[BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause)'
+    case 'Eclipse':
+      return '[Eclipse](https://opensource.org/licenses/EPL-1.0)'
+    case 'GNU-GPL-v3':
+      return '[GNU-GPL-v3](https://www.gnu.org/licenses/gpl-3.0)'
+    case 'IBM':
+      return '[IBM](https://opensource.org/licenses/IPL-1.0)'
+    case 'ISC':
+      return '[ISC](https://opensource.org/licenses/ISC)'
+    case 'MIT':
+      return '[MIT](https://opensource.org/licenses/MIT)'
+    case 'Mozilla-2.0':
+      return '[Mozilla-2.0](https://opensource.org/licenses/MPL-2.0)'
+    case 'ODbL':
+      return '[ODbL](https://opendatacommons.org/licenses/odbl/)'
+    case 'SIL':
+      return '[SIL](https://opensource.org/licenses/OFL-1.1)'
+    case 'None':
+      return ''
+    default:
+      break;
+  }
+}
 
 function renderLicenseSection(license) {}
 
