@@ -36,5 +36,24 @@ const questions = [
         message: 'Please provide the TEST INSTRUCTIONS for your project',
         name: 'test-instruct',
     },
+    // user selection of license
+    {
+        type: 'input',
+        message: 'Please select the LICENSE you would like to use.',
+        choices: ['MIT', 'GPL-3.0', 'MPL-2.0', 'Apache-2.0', 'BSD-3-Clause', 'None'],
+        name: 'license',
+    },
+    // user input for github username
+    {
+        type: 'input',
+        message: 'Please provide your GITHUB USERNAME.',
+        name: 'github-id',
+    },
+    // user input for email id
+    {
+        type: 'input',
+        message: 'Please provide your EMAIL ADDRESS.',
+        name: 'email-id',
+    },
 ];
 
