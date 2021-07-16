@@ -65,10 +65,10 @@ const questions = [
 // function to initialize markdown page
 function init() {
     // prompt for asking questions
-    inquire.prompt(questions)
+    inquirer.prompt(questions)
     // generating a README.md file
         .then(data => {
-            fs.writeFile('GeneratedREADME.md', generateMarkdown(data));
+            fs.writeFile('CreatedREADME.md', generateMarkdown(data));
         })
 }
 
