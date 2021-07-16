@@ -12,5 +12,17 @@ const questions = [
         message: 'Please provide a SHORT DESCRIPTION for your project',
         name: 'description',
     },
+    // user input for install instructions
+    {
+        type: 'input',
+        message: 'Please enter the INSTALLATION INSTRUCTIONS for your project',
+        name: 'install-info',
+    },
+    // user input for usage information
+    {
+        type: 'input',
+        message: 'Please provide some USAGE INFORMATION for your project',
+        name: 'usage-info',
+    },
 ];
 
