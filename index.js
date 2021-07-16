@@ -1,13 +1,16 @@
-// TODO: Include packages needed for this application
+// questionbank for program to prompt
+const questions = [
+    // user input for title
+    {
+        type: 'input',
+        message: 'What is the TITLE of your project?',
+        name: 'title',
+    },
+    // user input for description
+    {
+        type: 'input',
+        message: 'Please provide a SHORT DESCRIPTION for your project',
+        name: 'description',
+    },
+];
 
-// TODO: Create an array of questions for user input
-const questions = [];
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
-init();
