@@ -2,7 +2,7 @@
 
 ## License
 
-![MIT](https://opensource.org/licenses/MIT)
+[MIT](https://opensource.org/licenses/MIT)
 
 ## Short Description
 
@@ -27,4 +27,4 @@ node index.js
 
 Below is a link to the walkthrough video, which demonstrates how the README.md generator works.
 
-![Walkthrough Video](./util/walkthrough_video.mov)
+[Walkthrough Video](./util/walkthrough_video.mov)
