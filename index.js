@@ -68,7 +68,7 @@ function init() {
     inquirer.prompt(questions)
     // generating a README.md file
         .then(data => {
-            fs.writeFile('CreatedREADME.md', generateMarkdown(data));
+            fs.writeFile('CreatedREADME.md', generateMarkdown(data), (err) => err ? console.rror(err) : console.log('Generated README.md'));
         })
 }
 
