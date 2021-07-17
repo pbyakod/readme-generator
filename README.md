@@ -27,4 +27,4 @@ node index.js
 
 Below is a link to the walkthrough video, which demonstrates how the README.md generator works.
 
-[Walkthrough Video](./utils/walkthrough-video.mp4)
+<a href="https://drive.google.com/file/d/1Pi6DxN-iP6QMyERL5k0nyjKhO8e-QRLe/view?usp=sharing">Walkthrough Video</a>
