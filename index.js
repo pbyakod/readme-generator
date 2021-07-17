@@ -21,13 +21,13 @@ const questions = [
     {
         type: 'input',
         message: 'Please enter the INSTALLATION INSTRUCTIONS for your project',
-        name: 'install-info',
+        name: 'install',
     },
     // user input for usage information
     {
         type: 'input',
         message: 'Please provide some USAGE INFORMATION for your project',
-        name: 'usage-info',
+        name: 'usage',
     },
     // user input for contribution guidelines
     {
@@ -39,7 +39,7 @@ const questions = [
     {
         type: 'input',
         message: 'Please provide the TEST INSTRUCTIONS for your project',
-        name: 'test-instruct',
+        name: 'testing',
     },
     // user selection of license
     {
@@ -52,13 +52,13 @@ const questions = [
     {
         type: 'input',
         message: 'Please provide your GITHUB USERNAME.',
-        name: 'github-id',
+        name: 'github',
     },
     // user input for email id
     {
         type: 'input',
         message: 'Please provide your EMAIL ADDRESS.',
-        name: 'email-id',
+        name: 'email',
     },
 ];
 

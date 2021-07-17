@@ -71,7 +71,7 @@ function generateMarkdown(data) {
   ${data.description}
   ## Table of Contents
   * [Installation](#installation)
-  * [Usage Information](#usage-info)
+  * [Usage Information](#usage)
   * [Contribution Guidelines](#guidelines)
   * [License](#license)
   * [Test Instructions](#testing)
@@ -79,16 +79,16 @@ function generateMarkdown(data) {
   ## Installation
   ${data.install}
   ## Usage Information
-  ${data.usage-info}
+  ${data.usage}
   ## Contribution Guidelines
   ${data.guidelines}
   ## License
   ${renderLicenseLink(data.license)}
   ## Test Instructions
-  ${data.test-instruct}
+  ${data.testing}
   ## Contact
-  Github: [Github](https://github.com/${data.github-id})
-  Email: ${data.email-id}
+  Github: [Github](https://github.com/${data.github})
+  Email: ${data.email}
 `;
 }
 
