@@ -14,7 +14,7 @@
   ## Usage Information
   This is the usage information for the sample README file.
   ## Contribution Guidelines
-  These are the contribution guidlines for the sample README file.
+  These are the contribution guidelines for the sample README file.
   ## License
   [MIT](https://opensource.org/licenses/MIT)
   ## Test Instructions
